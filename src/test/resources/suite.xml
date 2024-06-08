@@ -1,0 +1,13 @@
+<suite name="Wikipedia Automation Suite">
+    <parameter name="url" value="https://www.wikipedia.org/"/>
+    <parameter name="textToSearch" value="Dark (serie de televisión)"/>
+    <test name="Search Test">
+        <classes>
+            <class name="tests.WikipediaTests">
+                <methods>
+                    <include name="validateTimeZoneByCountry"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
