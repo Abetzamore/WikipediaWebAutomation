@@ -23,6 +23,5 @@
 hs_err_pid*
 replay_pid*
 
-src/test/resources/chromedriver.exe
 target
 .idea
